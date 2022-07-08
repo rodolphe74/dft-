@@ -32,6 +32,6 @@ CUDA    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | Intel Core 
 # Conclusion
 
 If your algorithm can be parallelized and it's possible to limit memory transfers between host and gpu device, GPU parallelization can bring you inordinate speed. The CUDA version on a good GPU chip shows a ratio of 17 compared to 1 thread CPU version.
-That said, programming with OpenMP is far more easy and we can achieve good stopwatches with strong portability.
+That said, programming with OpenMP is far more easy and you can achieve good stopwatches with strong portability.
 A possibility which was not explored would be to use OpenMP over GPU but it seems that the software is at the very first step.
 
