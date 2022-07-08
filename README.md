@@ -14,6 +14,10 @@ An OpenMP Multi-threaded CPU Discrete Fourier Transform computation in Visual C+
 * [CUDA - NVidia](https://github.com/rodolphe74/Dft_Cuda)
 
 # Timing
+
+All measures where done on img/coin.png (278x244).
+Compilations flags are /GL /arch:AVX2 /favor:blend /fp:fast 
+
 Version | Command                                    | GPU/CPU | Device                                                     | Threads  | Time (sec) |
 ---     | -------                                    | ------- | ------                                                     | -------: | ----:      |
 OpenMP  | Measure-Command { .\x64\Release\dft+.exe } | CPU     | Intel Core i5-8300H @ 2.30/4 GHz                           | 1        | 173        |
