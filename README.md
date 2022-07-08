@@ -6,4 +6,4 @@ An OpenMP Multi-threaded CPU Discrete Fourier Transform computation in Visual C+
 
 <img src="/img/formula.png">
 
-(C++ DFT <--> OpenMP <--> CPU <--> numerous parallel gpu threads)
+(C++ DFT <--> OpenMP <--> CPU <--> 8 cpu threads)
