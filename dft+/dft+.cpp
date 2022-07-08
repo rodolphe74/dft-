@@ -12,6 +12,7 @@
 #include <ostream>
 #include <algorithm>
 #include <vector>
+#include <omp.h>
 
 
 #define STB_IMAGE_IMPLEMENTATION
@@ -103,6 +104,9 @@ int main(int argc, char **argv) {
 
     float *magnitudes = (float *) calloc(sz, sizeof(float));
 
+    omp_set_num_threads(8);
+   
+    #pragma omp parallel for default(none)
     for (int v = 0; v < h; v++) {
         for (int u = 0; u < w; u++) {
             complex<float> sum(0, 0);
