@@ -20,14 +20,14 @@ Compilations flags are /GL /arch:AVX2 /favor:blend /fp:fast
 
 Version | Command                                    | GPU/CPU | Device                                                     | Threads  | Time (sec) |
 ---     | -------                                    | ------- | ------                                                     | -------: | ----:      |
-OpenMP  | Measure-Command { .\x64\Release\dft+.exe } | CPU     | Intel Core i5-8300H @ 2.30/4 GHz                           | 1        | 173        |
-OpenMP  | Measure-Command { .\x64\Release\dft+.exe } | CPU     | Intel Core i5-8300H @ 2.30/4 GHz                           | 8        | 38         |
-OpenMP  | Measure-Command { .\x64\Release\dft+.exe } | CPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 1        | 174        |
-OpenMP  | Measure-Command { .\x64\Release\dft+.exe } | CPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 8        | 36         |
-VUDA    | Measure-Command { .\x64\Release\dft+.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - UHD Graphics 630        | 256      | 332        |
-VUDA    | Measure-Command { .\x64\Release\dft+.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 256      | 40         |
-VUDA    | Measure-Command { .\x64\Release\dft+.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 256      | 53         |
-CUDA    | Measure-Command { .\x64\Release\dft+.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 278      | 10         |
+OpenMP  | Measure-Command { .\x64\Release\dft+.exe }     | CPU     | Intel Core i5-8300H @ 2.30/4 GHz                           | 1        | 173        |
+OpenMP  | Measure-Command { .\x64\Release\dft+.exe }     | CPU     | Intel Core i5-8300H @ 2.30/4 GHz                           | 8        | 38         |
+OpenMP  | Measure-Command { .\x64\Release\dft+.exe }     | CPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 1        | 174        |
+OpenMP  | Measure-Command { .\x64\Release\dft+.exe }     | CPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 8        | 36         |
+VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - UHD Graphics 630        | 256      | 332        |
+VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 256      | 40         |
+VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 256      | 53         |
+CUDA    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 278      | 10         |
 
 # Conclusion
 
