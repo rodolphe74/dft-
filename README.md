@@ -14,8 +14,8 @@ An OpenMP Multi-threaded CPU Discrete Fourier Transform computation in Visual C+
 * [CUDA - NVidia](https://github.com/rodolphe74/Dft_Cuda)
 
 # Timing
-Version | Command | Device | Threads | Time |
----     | ------- | ------ | ------- | ---- |
+Version | Command | Device | Threads  | Time  |
+---     | ------- | ------ | -------: | ----: |
 xxx     | 301     | 283    | 0       | 290  |
 
 
