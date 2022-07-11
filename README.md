@@ -29,8 +29,8 @@ VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core 
 VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 256      | 40         |
 VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 256      | 53         |
 CUDA    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 278      | 10         |
-OpenCL v1   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 244      | 5400       |
-OpenCL v2   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 278      | 22 ~ 38    |
+OpenCL v1[^1]   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 244      | 5400       |
+OpenCL v2[^2]   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 278      | 22 ~ 38    |
 
 # Conclusion
 
@@ -38,3 +38,5 @@ If your algorithm can be parallelized and it's possible to limit memory transfer
 That said, programming with OpenMP is far more easy and you can achieve good stopwatches with strong portability.
 A possibility which was not explored would be to use OpenMP over GPU but it seems that the software is at the very first step.
 
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.
