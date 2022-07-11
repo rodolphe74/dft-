@@ -38,5 +38,5 @@ If your algorithm can be parallelized and it's possible to limit memory transfer
 That said, programming with OpenMP is far more easy and you can achieve good stopwatches with strong portability.
 A possibility which was not explored would be to use OpenMP over GPU but it seems that the software is at the very first step.
 
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.
+[^1]: OpenCL v1 : Version with lots of memory tranferts. Each summed columns is tranfered to CPU side. Lots of GPU kernel calls.
+[^2]: OpenCL v2 : Version with far less memory tranferts. Each summed line is transfered to CPU side.
