@@ -12,6 +12,7 @@ An OpenMP Multi-threaded CPU Discrete Fourier Transform computation in Visual C+
 
 * [VUDA - Vulkan](https://github.com/rodolphe74/Dft_Vuda)
 * [CUDA - NVidia](https://github.com/rodolphe74/Dft_Cuda)
+* [OpenCL](https://github.com/rodolphe74/Dft_OpenCL)
 
 # Timing
 
