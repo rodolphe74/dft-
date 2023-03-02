@@ -29,7 +29,7 @@ VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core 
 VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 256      | 40         |
 VUDA    | Measure-Command { .\x64\Release\Dft_Vuda.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz    | 256      | 53         |
 CUDA    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - NVIDIA GeForce GTX 1050 | 278      | 10         |
-<img src="/img/alienware-logo-128.jpg" height="16">CUDA    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | AMD Ryzen 7 6800H @ 3.20/4.70 Ghz - NVIDIA GeForce RTX 3060 | 1024      | 7         |
+CUDA <img src="/img/alienware-logo-128.jpg" height="16">    | Measure-Command { .\x64\Release\Dft_Cuda.exe } | GPU     | AMD Ryzen 7 6800H @ 3.20/4.70 Ghz - NVIDIA GeForce RTX 3060 | 1024      | 7         |
 OpenCL v1[^1]   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 244      | 3607       |
 OpenCL v2[^2]   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | AMD Ryzen 5 3400GE with Radeon Vega Graphics @ 3.30 GHz | 278      | 22         |
 OpenCL v1[^1]   | Measure-Command { .\x64\Release\Dft_OpenCL.exe } | GPU     | Intel Core i5-8300H @ 2.30/4 GHz - UHD Graphics 630 | 244      | 3397       |
